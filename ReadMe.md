@@ -20,7 +20,7 @@
 * Clone the Repository
 
 ```
-git clone [git_hub_link](https://github.com/anitaraw/genai-chatbot.git)
+git clone <git_hub_link>
 cd genai-chatbot
 
 ```
