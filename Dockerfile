@@ -11,12 +11,8 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Copy the requirements file and install dependencies
-# COPY requirements.txt requirements.txt
 COPY . .
 RUN pip install -r requirements.txt
-
-# Copy all files from the current directory to the working directory in the container
-COPY . .
 
 # Expose the port Streamlit will run on
 EXPOSE 8501
